@@ -2,7 +2,7 @@
 
 **Latest working macOS**: 13.0.1
 <br>
-**Current OpenCore**: 0.8.6
+**Current OpenCore**: 0.8.7
 
 ## Complete hardware specs
 - Xeon e2670 v3 (not turbo activated)
@@ -29,13 +29,14 @@
 
 ## Kexts used:
 - AppleALC.kext
-- Lilu.kext
 - CpuTscSync.kext
+- HibernationFixup.kext
+- Lilu.kext
 - NVMeFix.kext
 - RealtekRTL8111
 - RestrictEvents
-- SMCSuperIO.kext
 - SMCProcessor.kext
+- SMCSuperIO.kext
 - USBInjectAll.kext
 - USBMap.kext
 - VirtualSMC.kext
